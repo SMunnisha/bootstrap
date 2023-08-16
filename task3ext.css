@@ -1,0 +1,31 @@
+#ss{
+	height:200px;
+	
+	border:3px solid black;
+	text-align:center;
+	border-bottom:1px solid black;
+}
+#s{
+	border:5px solid black;
+}
+#A{
+	height:200px;
+	border:3px solid black;
+	text-align:center;
+	border-bottom:1px solid black;
+}
+.h{
+	font-size:50px;
+	text-align:center;
+	padding-right:230px;
+}
+.h11{
+	font-size:60px;
+	text-align:center;
+	padding-left:180px;
+}
+.h22{
+	font-size:60px;
+	text-align:center;
+	padding-right:200px;
+}

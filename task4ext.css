@@ -1,0 +1,68 @@
+.a{
+	height: 780px;
+	width: 650px;
+	background-color:ghostwhite;
+	padding-top: 4px;
+	margin-top: 8px
+	
+}
+.b{
+	height: 40px;
+	width: 650px;
+	background-color: white;
+}
+.button{
+	background-color:lightgreen;
+	border-radius: 3px;
+	border:none;
+	color: white;
+	margin-top: 9px;
+	margin-left: 20px;
+}
+.butt{
+	background-color:lightblue;
+	border-radius: 3px;
+	border:none;
+	color: white;
+	margin-top: 9px;
+	margin-left: 10px
+}
+.act{
+	background-color:red;
+	border-radius: 3px;
+	border:none;
+	color: white;
+	margin-top: 9px;
+	font-size: 15px
+}
+.sel{
+	background-color: red;
+	color: white;
+	border: none;
+}
+
+.col1{
+	background-color: white;
+	height: 340px;
+	width: 260px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 2px grey;
+}
+.col2{
+	background-color: white;
+	height: 340px;
+	width: 260px;
+	margin-top: 10px;
+	margin-left:30px;
+	box-shadow: 2px 2px 2px grey;
+
+}
+.img{
+	float: left;
+	height: 70px;
+	width: 80px;
+	margin-top: 20px;
+	background-color: white
+}

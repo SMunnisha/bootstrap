@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BootstrapActivity1</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="bootexternal.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+        h6 {
+            display: flex;
+            flex-direction:row;
+        }
+          
+        h6:before,
+        h6:after {
+            content: "";
+            flex: 1 1;
+            border-bottom: 1px solid #000;
+            margin: 15px;
+
+        }
+          
+    </style>
+</head>
+<body>
+	<div class=" container">
+		<div class="row ">
+			<div class="col-md-6 col-sm-12 d2 col-none">
+				<h5 class="h11"><b>Company Name</b></h5>
+				<img src="img1.webp" class="im1">
+				<h5 class="h12">Create an Account</h5>
+				<p class="p1">Create a minimal registration page using Bootstrap 4<br>HTML form elements.<br>Snippet By <u>Bootstrapious</u></p>
+			</div>
+			<div class="col-md-6 col-sm-12 col-none d1">
+				  <form>
+				  	<div class="row">
+					  	<div class="col-6">
+						  	<div class="input-group">
+						  		<span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+						  		<input id="First Name" type="text" class="form-control" name="name" placeholder="First Name"></div>
+						  	</div><br>
+						<div class="col-6">
+						  	<div class="input-group">
+						  		<span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+						  		<input id="Last Name" type="text" class="form-control" name="name" placeholder="Last Name" >
+						  	</div>	
+						</div>
+					</div><br>
+				  	<div class="row">
+				  		<div class="col-12">
+						    <div class="input-group">
+						      	<span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>  
+						      	<input id="email" type="text" class="form-control" name="email" placeholder="Email"> 
+						    </div>
+						</div><br>
+					</div><br>
+				    <div class="row">
+				    	<div class="col-12">
+				    		<div class="input-group">
+				    			<span class="input-group-text"><i class="fa-solid fa-phone-volume"></i></span>
+				        		<input id="number" type="Number" class="form-control" name="number" placeholder="Phone Number">
+				    		</div>
+				    	</div>
+				    </div><br>
+				    <div class="row">
+				    	<div class="col-12">
+				    		<div class="input-group">
+				    			<span class="input-group-text"><i class="fa-brands fa-black-tie"></i></span>
+				        		<input id="text" type="text" class="form-control" name="text" placeholder="Choose your job">
+				    		</div>
+				    	</div>
+				    </div><br>
+				    <div class="row">
+					  	<div class="col-6">
+						  	<div class="input-group">
+						  		<span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
+						  		<input id="password" type="text" class="form-control" name="password" placeholder="Password"></div>
+						  	</div>
+						<div class="col-6">
+						  	<div class="input-group">
+						  		<span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
+						  		<input id="Password" type="text" class="form-control" name="password" placeholder="Conform Password" >
+						  	</div>	
+						</div>
+					</div><br>
+					<div class="row">
+						<button class="b1">Create Your Account</button>
+					</div>
+				</form>
+				<h6>or</h6>
+				<div class="row">
+					<button class="b2"><i class="fa-brands fa-facebook" style="font-size:20px;margin-left:50px;background-color: navy"></i>&nbsp;&nbsp;&nbsp;Continue with Facebook</button>
+				</div><br>
+				<div class="row">
+					<button class="b3"><i class="fa-brands fa-twitter"style="font-size:20px;margin-left:50px;"></i>&nbsp;&nbsp;&nbsp;</i>Continue with Twitter</button>
+				</div>
+			</div>
+</body>
+</html>

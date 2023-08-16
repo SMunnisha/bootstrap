@@ -1,0 +1,33 @@
+.a{ 
+	height:50px;
+	width:320;
+	border:1px solid ;
+	border-radius: 5px;
+	box-shadow: 2px 2px black;
+	margin:10px 10px 0px 0px;
+
+}
+.c{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.i{
+	color:deepskyblue;
+	padding-top: 10px;
+}
+.j{
+	color:orange;
+	padding-top: 10px;
+}
+.k{
+	color:green;
+	padding-top: 10px;
+}
+.l{
+    color:red;
+    padding-top:10px;
+}
+.b1{
+	margin-left: 200px;
+	font-size:10px;
+}
